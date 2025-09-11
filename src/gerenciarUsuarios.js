@@ -1,4 +1,28 @@
-const usuarios = ['Matheus', 'Marcos', 'Lucas', 'João'];
+const usuarios = [
+    {
+        nome: 'Matheus',
+        email: 'matheus@email.com'
+
+    },
+
+    {
+        nome: 'Marcos',
+        email: 'marcos@email.com'
+
+    },
+
+    {
+        nome: 'Lucas',
+        email: 'lucas@email.com'
+
+    },
+
+    {
+        nome: 'João',
+        email: 'joao@email.com'
+
+    }
+];
 
     function retornarUsuarios(){
         return usuarios;
